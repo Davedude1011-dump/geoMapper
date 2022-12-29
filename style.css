@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    touch-action: manipulation;
+}
+
+.map-image {
+    user-select: none;
+}
+
+.image_map_parts {
+    cursor: pointer;
+}
+
+.top_pannel {
+    width: 85vw;
+    height: 5vh;
+    left: 50%;
+    translate: -50%;
+    top: 0;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.country_name {
+    position: absolute;
+    font-size: 2.5rem;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.points_counter {
+    position: relative;
+    font-size: 2rem;
+    height: fit-content;
+    width: fit-content;
+    width: 20px;
+    bottom: 0;
+    left: 0;
+    margin-left: 1%;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.points_title {
+    position: relative;
+    left: 0;
+    top: 10%;
+    translate: -80%;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.points_outer {
+    float: left;
+    height: 100%;
+    width: fit-content;
+    margin-left: 3%;
+}
+
+.skips_counter {
+    position: relative;
+    font-size: 2rem;
+    height: fit-content;
+    width: fit-content;
+    bottom: 0;
+    left: 0;
+    margin-left: 1%;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.skips_title {
+    position: relative;
+    left: 0;
+    top: 10%;
+    translate: -80%;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.skips_outer {
+    float: left;
+    margin-left: 8%;
+    height: 100%;
+    width: fit-content;
+}
+
+.restart {
+    position: absolute;
+    font-size: 1.25rem;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    right: 0;
+    translate: 0 -50%;
+    margin-right: 1%;
+    padding: 0.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    cursor: pointer;
+}
